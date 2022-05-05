@@ -1,0 +1,118 @@
+html{
+    min-height: 100vh;
+    background-image: url("https://pressstart.vip/images/uploads/assets/cityskyline.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    background-color: transparent !important;
+}
+.blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px);
+    height: 45vh;
+      width: 100%;
+  }
+  .blur2 {
+    background: rgba(170, 131, 207, 0.521) ; 
+    backdrop-filter: blur(5px);
+    height: 50vh;
+      width: 100%;
+  }
+
+  .titulo {
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: inline;
+ 
+    font-weight: 500;
+   margin-bottom: 5px;
+}
+
+.interC { 
+    color: #fff;
+    margin: 7px 0;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+}
+
+.linea-division {
+    width: 80%;
+    height: 3px;
+    background-color:black;
+
+}
+.linea-division1 {
+    width: 80%;
+    height: 3px;
+    background-color:black;
+    position: absolute;
+    top: 38px;
+}
+.carousel{
+    min-height: 300px;
+    min-width: max-content;
+}
+
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+    height: 500px;
+}
+
+.carousel .carousel-item img{
+   height: 100%;
+   width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    position: relative;
+
+
+}
+
+.card .card-image img{
+    height: 100%;
+    width: 100%;
+     object-fit: cover;
+     border-radius: 15px;
+     box-shadow:2px 2px 1px rgba(0,0,0,0.7) ;
+}
+
+
+.about{
+    left: 5px !important;
+    background-color:#e3f2fd  !important;
+    border-radius: 10px;
+    text-align: justify;
+    min-height: 390px;
+}
+.info{
+    font-size: 16px;
+    font-family: 'Dangrek', cursive;
+}
+.iconos{
+    color: black !important;
+    font-weight: bold !important;
+    margin: 7px 0 !important;
+    text-shadow: 2px 2px 1px  #fff !important;
+}
+
+.habilidad{
+    border-radius: 15px; 
+    margin: 30px;
+    margin-top: 5px;
+    min-height: 35vh;
+}
+
